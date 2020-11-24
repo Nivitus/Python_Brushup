@@ -1,0 +1,14 @@
+x = [[11,17],
+    [14 ,15],
+    [13 ,18]]
+
+trans = [[0,0,0],
+         [0,0,0]]
+
+
+for i in range(len(x)):
+   for j in range(len(x[0])):
+       trans[j][i] = x[i][j]
+
+for n in trans:
+   print(n)
